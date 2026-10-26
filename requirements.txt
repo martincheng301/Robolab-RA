@@ -1,0 +1,3 @@
+# Offline analysis. Install the official NOKOV SDK separately on Windows.
+c3d==0.6.0
+numpy>=1.24,<3

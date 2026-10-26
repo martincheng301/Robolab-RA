@@ -1,0 +1,6 @@
+.venv/
+vendor/
+downloads/
+__pycache__/
+config.json
+verification.json

@@ -1,0 +1,36 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+/nokov-integration/config.json
+/nokov-integration/verification.json
+
+# Downloaded dependencies and temporary files
+vendor/
+downloads/
+/tmp/
+/hand-object-capture/analysis-deps/
+
+# Experimental records and generated reports stay local
+/hand-object-capture/point_test*/
+data/
+outputs/
+*.c3d
+*.cap
+*.trb
+*.vc[0-9]*
+*.cal
+*.mars
+*.log
+*.pdf
+
+# Operating-system files
+.DS_Store
+Thumbs.db
